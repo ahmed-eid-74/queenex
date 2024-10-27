@@ -1,0 +1,57 @@
+:root{
+    --main-color:#3b1af7;
+  }
+  body{
+    box-sizing: border-box;
+   
+  }
+  .navbar {
+    z-index: 2;
+      background-color: rgba(0, 0, 0, 0.5);
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+     
+  }
+  
+  .navbar-brand{
+  color:  var(--main-color);
+  }
+  
+  .nav-link{
+      color: aliceblue;
+  }
+
+ 
+  header{
+    
+    height: 70vh;
+     padding-top: 86px;
+   
+  }
+  @keyframes imgRotat {
+  
+  
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+  .imgs  {
+    animation:imgRotat 50s linear infinite;
+  }
+  
+  
+  .footer{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .item7{
+    text-align: center;
+    color: #fff;
+  }
+   .footer .btns btn{
+  color: #3b1af7;
+   
+  
+  }

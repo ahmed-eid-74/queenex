@@ -1,0 +1,78 @@
+/* 
+.items{
+    margin: 40px;
+    padding: 40px;
+    background-color: rgb(230, 227, 227);
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.book-form{
+    float: left;
+   
+}
+
+
+.book-form .table{
+    height: 80vh;
+    float: left;
+    width: 60%;
+}
+
+.table h2{
+    margin-left: 30px;
+    padding: 30px;
+ 
+} */
+.table .tt{
+    margin: 30px;
+    padding: 10px;
+   height: 10vh;
+    line-height: 20px;
+  
+   
+}
+.table .form{
+    height: 30vh;
+    width: 30vh;
+    
+}
+.send{
+    background-color: rgb(49, 47, 47);
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+
+ }
+
+.book-form .Contacts{
+    float: left;
+    width: 40%;
+
+}
+ .Contacts h2{
+   margin-left: 30px;
+    padding: 30px;
+   
+ }
+ .Contacts p{
+color:#666;
+
+padding: 20px;
+line-height: 40px;
+ }
+ .Contacts h6{
+    color: #666;
+    margin-left: 20px;
+    font-size: 30px;
+ }
+
+.footer{
+    height: 20vh;
+    background-color: black;
+}
+.footer h3{
+    color: #666;
+    margin: 40px 30px;
+    padding: 40px 30px; 
+}
